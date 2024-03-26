@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
+// import './utils/lib/china'
+
 import './styles/index.scss'
 
 // rem适配(动态设置font-size)

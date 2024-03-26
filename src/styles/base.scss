@@ -1,10 +1,10 @@
 *{margin: 0; padding : 0;box-sizing: border-box;}
-html,body,#app{
-    width: 100%;
+// html,body,#app{
+    // width: 100%;
 
     // 100% 可视区域的高度
-    height: 100%;
-}
+    // height: 100%;
+// }
 
 body{
     background: url("@/assets/image/bg.jpg") no-repeat;
@@ -16,16 +16,37 @@ body{
 // 当分辨率小于1024的时候
 @media screen and (max-width: 1024px) {
     html{
-        font-size : 42.66px !important;
+        font-size : 82.66px !important;
     }
 }
 
 // 当分辨率大于1920的时候
 @media screen and (min-width: 1920px) {
     html{
-        font-size :80px !important;
+        font-size :160px !important;
     }
 }
+
+// @media screen and (max-width:1024px) {
+//     html{
+//       font-size: 82.66px !important;
+//     }
+// }
+
+// @media screen and (min-width:1920px) {
+//     html{
+//       font-size: 160px !important;
+//     }
+//   }
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
 
 
 .viewport{
@@ -73,5 +94,5 @@ h3{
 
 .column:nth-child(2){
     flex : 4;
-    margin: .1302rem .0781rem;
+    margin: .1667rem .0521rem;
 }
